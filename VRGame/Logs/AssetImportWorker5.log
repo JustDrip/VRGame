@@ -15,7 +15,7 @@ D:/Unity_VR/VRGame/VRGame
 -logFile
 Logs/AssetImportWorker5.log
 -srvPort
-53073
+59293
 Successfully changed project path to: D:/Unity_VR/VRGame/VRGame
 D:/Unity_VR/VRGame/VRGame
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ D:/Unity_VR/VRGame/VRGame
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 50.36 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 50.44 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.13f1 (9e7d58001ecf)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/Resources/UnitySubsystems
@@ -58,52 +58,52 @@ Direct3D:
     Renderer: NVIDIA GeForce RTX 3080 (ID=0x2216)
     Vendor:   NVIDIA
     VRAM:     10067 MB
-    Driver:   31.0.15.2647
+    Driver:   31.0.15.2686
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56072
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56580
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004068 seconds.
+Registered in 0.003586 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 45.06 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 48.42 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.360 seconds
+- Completed reload, in  0.335 seconds
 Domain Reload Profiling:
-	ReloadAssembly (360ms)
-		BeginReloadAssembly (49ms)
+	ReloadAssembly (335ms)
+		BeginReloadAssembly (36ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (244ms)
-			LoadAssemblies (48ms)
+		EndReloadAssembly (242ms)
+			LoadAssemblies (35ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (59ms)
+			SetupTypeCache (52ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (14ms)
-			SetupLoadedEditorAssemblies (144ms)
+			SetupLoadedEditorAssemblies (151ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (45ms)
+				RefreshPlugins (48ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (70ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
+				ProcessInitializeOnLoadAttributes (72ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002986 seconds.
+Registered in 0.003181 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Unity_VR\VRGame\VRGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Unity_VR\VRGame\VRGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -113,43 +113,43 @@ Refreshing native plugins compatible for Editor in 0.59 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 Mono: successfully reloaded assembly
-- Completed reload, in  0.552 seconds
+- Completed reload, in  0.557 seconds
 Domain Reload Profiling:
-	ReloadAssembly (552ms)
-		BeginReloadAssembly (62ms)
+	ReloadAssembly (558ms)
+		BeginReloadAssembly (61ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (12ms)
-		EndReloadAssembly (432ms)
-			LoadAssemblies (55ms)
+			CreateAndSetChildDomain (13ms)
+		EndReloadAssembly (437ms)
+			LoadAssemblies (50ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (137ms)
+			SetupTypeCache (139ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (193ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (199ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (47ms)
-				ProcessInitializeOnLoadAttributes (123ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
+				BeforeProcessingInitializeOnLoad (50ms)
+				ProcessInitializeOnLoadAttributes (125ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.80 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 1.00 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3668 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 30 unused Assets / (113.9 KB). Loaded Objects now: 4125.
-Memory consumption went from 130.0 MB to 129.9 MB.
-Total: 2.908800 ms (FindLiveObjects: 0.227000 ms CreateObjectMapping: 0.061700 ms MarkObjects: 2.543800 ms  DeleteObjects: 0.075900 ms)
+Unloading 30 unused Assets / (113.8 KB). Loaded Objects now: 4126.
+Memory consumption went from 130.2 MB to 130.1 MB.
+Total: 3.532600 ms (FindLiveObjects: 0.479600 ms CreateObjectMapping: 0.088800 ms MarkObjects: 2.849900 ms  DeleteObjects: 0.113600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -162,3 +162,73 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 260444.100148 seconds.
+  path: Assets/SteamVR/InteractionSystem/Longbow/Materials/LongbowString.mat
+  artifactKey: Guid(40fa752affdc6cf45a47396764154085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Longbow/Materials/LongbowString.mat using Guid(40fa752affdc6cf45a47396764154085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '687321c53fb6d3a43490bda7a54c01fd') in 0.081670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/SteamVR/Models/Materials/knuckles_right.mat
+  artifactKey: Guid(dc89eae32e82ada4b873dd07678c67e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/Models/Materials/knuckles_right.mat using Guid(dc89eae32e82ada4b873dd07678c67e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '291fae3b49b2854856a30d3adc47d843') in 0.010517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SteamVR/InteractionSystem/Samples/Materials/ShinyWhiteHand.mat
+  artifactKey: Guid(5ebf65e069a3d3f4bbb68b42e5c4840e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Samples/Materials/ShinyWhiteHand.mat using Guid(5ebf65e069a3d3f4bbb68b42e5c4840e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89804c45a92dac5a8175f3dc18e51104') in 0.019489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/SteamVR/InteractionSystem/Samples/JoeJeff/Materials/JJHat.mat
+  artifactKey: Guid(782e025f2916bcc4eb141c1fb67c13f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Samples/JoeJeff/Materials/JJHat.mat using Guid(782e025f2916bcc4eb141c1fb67c13f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f4a9d5883dd08339f6c00b74d5eaa27') in 0.179223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/SteamVR/InteractionSystem/Samples/Materials/LightGreen.mat
+  artifactKey: Guid(80a6bae7122d17d4c9243b982a652788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Samples/Materials/LightGreen.mat using Guid(80a6bae7122d17d4c9243b982a652788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77c97ef37ab74fac9e396cdef0dbc144') in 0.139334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/SteamVR/InteractionSystem/Samples/Materials/ShinyYellow.mat
+  artifactKey: Guid(3f5766a8b67794141ac19c1a51d27083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Samples/Materials/ShinyYellow.mat using Guid(3f5766a8b67794141ac19c1a51d27083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f805d8bec9fc250363f92e04d9450df') in 0.012030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SteamVR/InteractionSystem/Samples/Materials/ShinyWhiteHighlighted.mat
+  artifactKey: Guid(6729a932de5127b419aacfd9be7dde0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Samples/Materials/ShinyWhiteHighlighted.mat using Guid(6729a932de5127b419aacfd9be7dde0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3f0b7e12b378c76bb6c0101caf393af') in 0.009944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/SteamVR/InteractionSystem/Samples/Materials/ShinyWhiteObject.mat
+  artifactKey: Guid(ae954e68e9b70844292f588d1397a7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Samples/Materials/ShinyWhiteObject.mat using Guid(ae954e68e9b70844292f588d1397a7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7fb2dc6f8238e59890ddf2284dfb044') in 0.022963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/SteamVR/InteractionSystem/SnapTurn/Materials/snapTurnArrow.mat
+  artifactKey: Guid(0bbd832b13230de459422d3264b929c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/SnapTurn/Materials/snapTurnArrow.mat using Guid(0bbd832b13230de459422d3264b929c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e85cd8b8dc610cf72528e9fae657ed50') in 0.124222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.898837 seconds.
+  path: Assets/SteamVR/InteractionSystem/Samples/BuggyBuddy/Materials/unnamed.mat
+  artifactKey: Guid(14ed578262aab0047a2bf66c3949d2eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Samples/BuggyBuddy/Materials/unnamed.mat using Guid(14ed578262aab0047a2bf66c3949d2eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50dbf94ba60f84b181a78c966b985828') in 0.017843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SteamVR/InteractionSystem/Samples/Materials/URPflowerMat.mat
+  artifactKey: Guid(0a4508424b3d2a74fb181adab02ece03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Samples/Materials/URPflowerMat.mat using Guid(0a4508424b3d2a74fb181adab02ece03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbd8f36b923865d6bd63bc2e242b6628') in 0.024218 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
