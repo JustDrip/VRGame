@@ -498,7 +498,6 @@
 "Assets/SteamVR/InteractionSystem/Teleport/Scripts/TeleportPoint.cs"
 "Assets/SteamVR/InteractionSystem/Teleport/Scripts/TeleportURPHelper.cs"
 "Assets/SteamVR/Plugins/openvr_api.cs"
-"Assets/SteamVR/Prefabs/Scripts/TriggerWert.cs"
 "Assets/SteamVR/Scripts/SteamVR.cs"
 "Assets/SteamVR/Scripts/SteamVR_Behaviour.cs"
 "Assets/SteamVR/Scripts/SteamVR_Camera.cs"
