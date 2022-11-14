@@ -6,19 +6,16 @@ using UnityEngine.SceneManagement;
 
 public class TriggerWert : MonoBehaviour
 {
-    public int Rechenwert;
-    public Text Scorechange;
+    //public int Rechenwert;
+    //public Text Scorechange;
+    //void OnTriggerEnter(Collider other)
+    //{
 
+    //    if (other.CompareTag("Player"))
+    //    {
 
+    //        Scorechange.text = "Wert: " + Rechenwert;
 
-    void OnTriggerEnter(Collider other)
-    {
-
-        if (other.CompareTag("Player"))
-        {
-
-            Scorechange.text = "Wert: " + Rechenwert;
-
-        }
-    }
+    //    }
+    //}
 }
