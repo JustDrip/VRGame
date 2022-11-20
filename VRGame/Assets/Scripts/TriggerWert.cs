@@ -8,15 +8,21 @@ public class TriggerWert : MonoBehaviour
 {
     public int Rechenwert;
     public Text Scorechange;
+    public GameObject Wand;
+
+
 
     void OnTriggerEnter(Collider other)
     {
 
-        if (other.CompareTag("Player"))
+       /* if (other.CompareTag("Player"))
+        {*/
+
+         Scorechange.text = "Wert: " + Rechenwert;
+         if (Scorechange.text == "Wert: 250")
         {
-
-            Scorechange.text = "Wert: " + Rechenwert;
-
+            Wand.active = false;
         }
+        // }
     }
 }
