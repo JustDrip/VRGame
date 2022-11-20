@@ -12,10 +12,6 @@ public class Triggerergebnis : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-
-       /* if (other.CompareTag("Player"))
-        {*/
-
             Scorechange.text = Scorechange.text + " " + Rechenwert;
             if (Scorechange.text == "Wert: 250 + 250")
             {
@@ -23,7 +19,5 @@ public class Triggerergebnis : MonoBehaviour
             collider.active = false;
             Scorechange.text = "Geschafft";
             }
-
-        //}
     }
 }

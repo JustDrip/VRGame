@@ -12,16 +12,11 @@ public class Operation : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-
-        /*if (other.CompareTag("Player"))
-        {*/
-
             Scorechange.text = Scorechange.text + " " + Operationplusminus;
             if (Scorechange.text == "Wert: 250 +")
             {
                 Wand.active = false;
             collider.active = false;
             }
-       // }
     }
 }
